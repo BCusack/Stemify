@@ -1,26 +1,24 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
+
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent implements OnInit {
-  form: FormGroup;
 
-
-  constructor(private fb: FormBuilder) {
-    this.form = this.fb.group({
-      username: ['', Validators.email],
-      password: ['', Validators.required]
-    });
-  }
-
+  constructor(private router: Router) { }
+  username: string | undefined;
+  password: string | undefined;
+  showSpinner = false;
   ngOnInit(): void {
-
-
   }
-  async onSubmit(): Promise<void> {
-
+  login(): void {
+    if (this.username == 'admin' && this.password == 'admin') {
+      this.router.navigate([""]);
+    } else {
+      alert("Invalid credentials");
+    }
   }
 }

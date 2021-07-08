@@ -13,6 +13,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatSelectModule } from '@angular/material/select';
 import { MatOptionModule } from '@angular/material/core';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+
 const matconModules = [
   MatButtonModule,
   MatCardModule,
@@ -26,6 +27,7 @@ const matconModules = [
   MatSlideToggleModule,
   MatSelectModule,
   MatOptionModule,
+  MatProgressSpinnerModule,
   MatProgressSpinnerModule
 ];
 

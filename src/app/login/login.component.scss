@@ -1,13 +1,16 @@
-mat-card {
-  width: 400px;
-  aspect-ratio: 1/0.65;
-  // margin: 2em auto;
-  text-align: center;
+.example-card {
+  width: 25rem;
+  aspect-ratio: 1/0.7;
   position: fixed;
   inset: 0rem;
   margin: auto;
 }
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
 
-mat-form-field {
-  display: block;
+.example-full-width {
+  width: 100%;
 }
