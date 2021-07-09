@@ -28,5 +28,13 @@
   </mat-card-content>
   <mat-card-actions>
     <button mat-raised-button (click)="login()" color="primary">Login</button>
+    <button
+      type="button"
+      class="btn googleBtn"
+      (click)="authService.GoogleAuth()"
+    >
+      <i class="fab fa-google-plus-g"></i>
+      Log in with Google
+    </button>
   </mat-card-actions>
 </mat-card>

@@ -6,7 +6,11 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatcomModule } from './matcom/matcom.module';
-
+import { AngularFireModule } from "@angular/fire";
+import { AngularFireAuthModule } from "@angular/fire/auth";
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { environment } from '../environments/environment';
+import { AuthService } from './shared/services/auth.service';
 
 
 @NgModule({
@@ -19,9 +23,12 @@ import { MatcomModule } from './matcom/matcom.module';
     BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule,
-    MatcomModule
+    MatcomModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireAuthModule,
+    AngularFirestoreModule,
   ],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
