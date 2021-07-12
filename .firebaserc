@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "stemify-e3ea9": {
+      "hosting": {
+        "Stemify": [
+          "stemify-e3ea9"
+        ]
+      }
+    }
+  }
+}
