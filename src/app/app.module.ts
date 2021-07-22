@@ -11,6 +11,9 @@ import { AngularFireAuthModule } from "@angular/fire/auth";
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from '../environments/environment';
 import { AuthService } from './shared/services/auth.service';
+import { DashModule } from './dash/dash.module';
+
+
 
 
 @NgModule({
@@ -27,6 +30,8 @@ import { AuthService } from './shared/services/auth.service';
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
     AngularFirestoreModule,
+    DashModule,
+
   ],
   providers: [AuthService],
   bootstrap: [AppComponent]

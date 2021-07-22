@@ -13,6 +13,9 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatSelectModule } from '@angular/material/select';
 import { MatOptionModule } from '@angular/material/core';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { LayoutModule } from '@angular/cdk/layout';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
 
 const matconModules = [
   MatButtonModule,
@@ -28,7 +31,13 @@ const matconModules = [
   MatSelectModule,
   MatOptionModule,
   MatProgressSpinnerModule,
-  MatProgressSpinnerModule
+  MatProgressSpinnerModule,
+  LayoutModule,
+  MatToolbarModule,
+  MatButtonModule,
+  MatSidenavModule,
+  MatIconModule,
+  MatListModule
 ];
 
 @NgModule({
