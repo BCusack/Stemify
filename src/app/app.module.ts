@@ -12,6 +12,7 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from '../environments/environment';
 import { AuthService } from './shared/services/auth.service';
 import { DashModule } from './dash/dash.module';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -27,6 +28,7 @@ import { DashModule } from './dash/dash.module';
     FormsModule,
     ReactiveFormsModule,
     MatcomModule,
+    HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
     AngularFirestoreModule,

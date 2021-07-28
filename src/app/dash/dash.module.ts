@@ -4,6 +4,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { RouterModule, Routes } from '@angular/router';
 import { NavbarComponent } from '../sharedComp/navbar/navbar.component';
 import { MatcomModule } from '../matcom/matcom.module';
+import { SubListComponent } from './sub-list/sub-list.component';
 
 export const routes: Routes = [
   { path: '', component: DashboardComponent }
@@ -12,7 +13,8 @@ export const routes: Routes = [
 @NgModule({
   declarations: [
     DashboardComponent,
-    NavbarComponent
+    NavbarComponent,
+    SubListComponent
   ],
   imports: [
     CommonModule,

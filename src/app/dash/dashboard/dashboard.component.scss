@@ -1,0 +1,13 @@
+.example-card {
+  padding: 0.5rem;
+}
+.container {
+  margin-top: 50px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 250px);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+  align-content: center;
+  justify-content: center;
+}
