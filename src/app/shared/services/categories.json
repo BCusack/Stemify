@@ -1,0 +1,253 @@
+ {
+
+
+ "data":[
+  {
+    "Category": "Science",
+    "Subcategory": "Animal Sciences"
+  },
+  {
+    "Category": "Science",
+    "Subcategory": "Astronomy"
+  },
+  {
+    "Category": "Science",
+    "Subcategory": "Astrophysics"
+  },
+  {
+    "Category": "Science",
+    "Subcategory": "Atmospherical Science"
+  },
+  {
+    "Category": "Science",
+    "Subcategory": "Biochemistry"
+  },
+  {
+    "Category": "Science",
+    "Subcategory": "Biology"
+  },
+  {
+    "Category": "Science",
+    "Subcategory": "Chemistry"
+  },
+  {
+    "Category": "Science",
+    "Subcategory": "Economic Sciences"
+  },
+  {
+    "Category": "Science",
+    "Subcategory": "Food Sciences"
+  },
+  {
+    "Category": "Science",
+    "Subcategory": "Genetics"
+  },
+  {
+    "Category": "Science",
+    "Subcategory": "Geosciences"
+  },
+  {
+    "Category": "Science",
+    "Subcategory": "Medicine"
+  },
+  {
+    "Category": "Science",
+    "Subcategory": "Microbiology"
+  },
+  {
+    "Category": "Science",
+    "Subcategory": "Neurobiology"
+  },
+  {
+    "Category": "Science",
+    "Subcategory": "Nuclear Physics"
+  },
+  {
+    "Category": "Science",
+    "Subcategory": "Optics"
+  },
+  {
+    "Category": "Science",
+    "Subcategory": "Pharmaceuticals"
+  },
+  {
+    "Category": "Science",
+    "Subcategory": "Physics"
+  },
+  {
+    "Category": "Science",
+    "Subcategory": "Psychology"
+  },
+  {
+    "Category": "Science",
+    "Subcategory": "Social & Behavioral Sciences"
+  },
+  {
+    "Category": "Technology",
+    "Subcategory": "Advanced Manufacturing"
+  },
+  {
+    "Category": "Technology",
+    "Subcategory": "Automation"
+  },
+  {
+    "Category": "Technology",
+    "Subcategory": "Bioinformatics"
+  },
+  {
+    "Category": "Technology",
+    "Subcategory": "Biotechnology"
+  },
+  {
+    "Category": "Technology",
+    "Subcategory": "Computational Science"
+  },
+  {
+    "Category": "Technology",
+    "Subcategory": "Computer Science"
+  },
+  {
+    "Category": "Technology",
+    "Subcategory": "Cyber infrastructure"
+  },
+  {
+    "Category": "Technology",
+    "Subcategory": "Electronics"
+  },
+  {
+    "Category": "Technology",
+    "Subcategory": "Information Science"
+  },
+  {
+    "Category": "Technology",
+    "Subcategory": "Intelligence"
+  },
+  {
+    "Category": "Technology",
+    "Subcategory": "Nanotechnology"
+  },
+  {
+    "Category": "Technology",
+    "Subcategory": "Robotics"
+  },
+  {
+    "Category": "Technology",
+    "Subcategory": "Telecommunications"
+  },
+  {
+    "Category": "Engineering",
+    "Subcategory": "Acoustical"
+  },
+  {
+    "Category": "Engineering",
+    "Subcategory": "Aerospace"
+  },
+  {
+    "Category": "Engineering",
+    "Subcategory": "Agriculture"
+  },
+  {
+    "Category": "Engineering",
+    "Subcategory": "Architecture"
+  },
+  {
+    "Category": "Engineering",
+    "Subcategory": "Biomedical"
+  },
+  {
+    "Category": "Engineering",
+    "Subcategory": "Chemical"
+  },
+  {
+    "Category": "Engineering",
+    "Subcategory": "Civil"
+  },
+  {
+    "Category": "Engineering",
+    "Subcategory": "Computer"
+  },
+  {
+    "Category": "Engineering",
+    "Subcategory": "Electrical"
+  },
+  {
+    "Category": "Engineering",
+    "Subcategory": "Environmental"
+  },
+  {
+    "Category": "Engineering",
+    "Subcategory": "General"
+  },
+  {
+    "Category": "Engineering",
+    "Subcategory": "Industrial"
+  },
+  {
+    "Category": "Engineering",
+    "Subcategory": "Materials Science"
+  },
+  {
+    "Category": "Engineering",
+    "Subcategory": "Mechanical"
+  },
+  {
+    "Category": "Engineering",
+    "Subcategory": "Production &"
+  },
+  {
+    "Category": "Engineering",
+    "Subcategory": "Manufacturing"
+  },
+  {
+    "Category": "Engineering",
+    "Subcategory": "Software"
+  },
+  {
+    "Category": "Engineering",
+    "Subcategory": "Transportation"
+  },
+  {
+    "Category": "Engineering",
+    "Subcategory": "Urban Planning"
+  },
+  {
+    "Category": "Mathematics",
+    "Subcategory": "Actuarial Science"
+  },
+  {
+    "Category": "Mathematics",
+    "Subcategory": "Algebra"
+  },
+  {
+    "Category": "Mathematics",
+    "Subcategory": "Applied Mathematics"
+  },
+  {
+    "Category": "Mathematics",
+    "Subcategory": "Biostatistics"
+  },
+  {
+    "Category": "Mathematics",
+    "Subcategory": "Calculus"
+  },
+  {
+    "Category": "Mathematics",
+    "Subcategory": "Financial Mathematics"
+  },
+  {
+    "Category": "Mathematics",
+    "Subcategory": "Geometry"
+  },
+  {
+    "Category": "Mathematics",
+    "Subcategory": "Mathematical Biology"
+  },
+  {
+    "Category": "Mathematics",
+    "Subcategory": "Operations research"
+  },
+  {
+    "Category": "Mathematics",
+    "Subcategory": "Statistics"
+  }
+]}

@@ -1,0 +1,10 @@
+<div class="container">
+  <div *ngFor="let item of listData">
+    <mat-card [routerLink]="['/article']" class="subCard">
+      <mat-card-header>
+        <mat-card-title> {{ item.Subcategory }}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content> </mat-card-content>
+    </mat-card>
+  </div>
+</div>

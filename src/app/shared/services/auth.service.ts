@@ -24,17 +24,11 @@ export class AuthService {
       if (user) {
         this.userData = user;
         localStorage.setItem('user', JSON.stringify(this.userData));
-        const localUser = localStorage.getItem('user');
-        if (localUser != null) {
-          JSON.parse(localUser);
-        }
+
 
       } else {
         localStorage.setItem('user', '');
-        const localUser = localStorage.getItem('user');
-        if (localUser != null) {
-          JSON.parse(localUser);
-        }
+
       }
     })
   }
@@ -57,6 +51,7 @@ export class AuthService {
     this.afAuth.createUserWithEmailAndPassword(email, password)
       .then((result) => {
         result.user?.sendEmailVerification();
+        this.SetUserData(result.user);
       }).catch((error) => {
         window.alert(error.message);
       });
