@@ -1,6 +1,6 @@
 <div class="container">
   <div *ngFor="let item of listData">
-    <mat-card class="subCard">
+    <mat-card [routerLink]="['/article']" class="subCard">
       <mat-card-header>
         <mat-card-title> {{ item.Subcategory }}</mat-card-title>
       </mat-card-header>

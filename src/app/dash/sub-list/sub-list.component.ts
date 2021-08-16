@@ -9,24 +9,18 @@ import { CatDataService, idata } from 'src/app/shared/services/cat-data.service'
   styleUrls: ['./sub-list.component.scss']
 })
 export class SubListComponent implements OnInit {
-
-
-
   param: string;
   listData: idata[] | undefined;
 
 
   constructor(private dataservice: CatDataService, private route: ActivatedRoute,
     private router: Router) {
-
-
   }
 
   ngOnInit(): void {
-
     this.param = this.route.snapshot.paramMap.get('id');
     this.listData = this.dataservice.SubCategoryList(this.param);
-    console.log(this.listData);
+    // console.log(this.listData);
 
   }
 
