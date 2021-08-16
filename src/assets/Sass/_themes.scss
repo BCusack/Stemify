@@ -1,0 +1,20 @@
+
+@import "~@angular/material/theming";
+
+.subCard {
+  padding: 0.5rem;
+  min-height: 10rem;
+  cursor: pointer;
+  &:hover {
+    @include mat-elevation(8);
+  }
+}
+.container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 250px);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+  align-content: center;
+  justify-content: center;
+}

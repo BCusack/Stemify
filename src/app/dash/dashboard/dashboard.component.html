@@ -1,7 +1,6 @@
-<app-navbar></app-navbar>
 <div class="container">
   <div class="item" *ngFor="let item of categories">
-    <mat-card class="example-card" (click)="getList()">
+    <mat-card [routerLink]="['/subs', item]" class="subCard">
       <mat-card-header>
         <mat-card-title>{{ item }}</mat-card-title>
       </mat-card-header>

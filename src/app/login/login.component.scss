@@ -1,8 +1,6 @@
 .example-card {
   width: 25rem;
-  aspect-ratio: 1/0.7;
-  position: fixed;
-  inset: 0rem;
+
   margin: auto;
 }
 .example-form {
@@ -13,4 +11,20 @@
 
 .example-full-width {
   width: 100%;
+}
+.button-wrapper {
+  display: grid;
+  margin-bottom: 1rem !important;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+}
+.main-div {
+  background-color: #cccccc;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+}
+.ggle-btn {
+  margin-bottom: 2rem;
 }

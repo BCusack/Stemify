@@ -13,13 +13,15 @@ import { environment } from '../environments/environment';
 import { AuthService } from './shared/services/auth.service';
 import { DashModule } from './dash/dash.module';
 import { HttpClientModule } from '@angular/common/http';
+import { NavbarComponent } from './sharedComp/navbar/navbar.component';
 
 
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

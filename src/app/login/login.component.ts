@@ -10,16 +10,16 @@ import { AuthService } from '../shared/services/auth.service';
 export class LoginComponent implements OnInit {
 
   constructor(private router: Router, public authService: AuthService) { }
-  username: string | undefined;
+  username!: string;
   password: string | undefined;
   showSpinner = false;
   ngOnInit(): void {
   }
   login(): void {
-    if (this.username == 'admin' && this.password == 'admin') {
-      this.router.navigate([""]);
-    } else {
-      alert("Invalid credentials");
-    }
+    this.authService.SignIn(this.username, this.password);
+  }
+  signUp(): void {
+    this.authService.SignUp(this.username, this.password);
   }
 }
+
