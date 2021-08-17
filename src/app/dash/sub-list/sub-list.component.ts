@@ -1,8 +1,6 @@
-import { ThisReceiver } from '@angular/compiler';
+
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-
-
 import { CatDataService, idata } from 'src/app/shared/services/cat-data.service';
 import { WikiService, WikiSummary } from 'src/app/shared/services/wiki.service';
 

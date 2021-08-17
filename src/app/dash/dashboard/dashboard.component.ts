@@ -1,9 +1,7 @@
 
 import { Component, OnInit } from '@angular/core';
-import { from } from 'rxjs/internal/observable/from';
-import { of } from 'rxjs/internal/observable/of';
-import { map } from 'rxjs/internal/operators/map';
-import { mergeAll, mergeMap } from 'rxjs/operators';
+import { from } from 'rxjs';
+import { mergeMap } from 'rxjs/operators';
 import { CatDataService } from 'src/app/shared/services/cat-data.service';
 import { WikiService } from 'src/app/shared/services/wiki.service';
 
