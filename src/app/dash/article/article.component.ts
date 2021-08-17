@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { WikiService, WikiSummary } from 'src/app/shared/services/wiki.service';
 
 @Component({
@@ -8,11 +9,13 @@ import { WikiService, WikiSummary } from 'src/app/shared/services/wiki.service';
 })
 export class ArticleComponent implements OnInit {
   data: WikiSummary;
+  param: string;
 
-  constructor(private wiki: WikiService) { }
+  constructor(private wiki: WikiService, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.wiki.getWiki('Addax').subscribe(d => {
+    this.param = this.route.snapshot.paramMap.get('id');
+    this.wiki.getWiki(this.param).subscribe(d => {
       this.data = d;
     });
   }

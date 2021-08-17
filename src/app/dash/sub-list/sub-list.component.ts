@@ -1,7 +1,10 @@
+import { ThisReceiver } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
+
 
 import { CatDataService, idata } from 'src/app/shared/services/cat-data.service';
+import { WikiService, WikiSummary } from 'src/app/shared/services/wiki.service';
 
 @Component({
   selector: 'app-sub-list',
@@ -10,18 +13,18 @@ import { CatDataService, idata } from 'src/app/shared/services/cat-data.service'
 })
 export class SubListComponent implements OnInit {
   param: string;
-  listData: idata[] | undefined;
+  listData: idata[];
 
+  dataObj: any;
+  breif: WikiSummary[];
 
-  constructor(private dataservice: CatDataService, private route: ActivatedRoute,
-    private router: Router) {
+  constructor(private dataservice: CatDataService, private articleService: WikiService, private route: ActivatedRoute,
+  ) {
   }
 
   ngOnInit(): void {
     this.param = this.route.snapshot.paramMap.get('id');
     this.listData = this.dataservice.SubCategoryList(this.param);
-    // console.log(this.listData);
-
   }
 
 }
