@@ -16,7 +16,7 @@
   },
   {
     "Category": "Science",
-    "Subcategory": "Atmospherical Science"
+    "Subcategory": "Atmospheric Science"
   },
   {
     "Category": "Science",
@@ -80,7 +80,7 @@
   },
   {
     "Category": "Science",
-    "Subcategory": "Social & Behavioral Sciences"
+    "Subcategory": "Social Sciences"
   },
   {
     "Category": "Technology",
@@ -108,7 +108,7 @@
   },
   {
     "Category": "Technology",
-    "Subcategory": "Cyber infrastructure"
+    "Subcategory": "Cyberinfrastructure"
   },
   {
     "Category": "Technology",
@@ -190,10 +190,7 @@
     "Category": "Engineering",
     "Subcategory": "Mechanical"
   },
-  {
-    "Category": "Engineering",
-    "Subcategory": "Production &"
-  },
+
   {
     "Category": "Engineering",
     "Subcategory": "Manufacturing"
